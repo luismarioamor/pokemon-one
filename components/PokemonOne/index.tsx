@@ -23,6 +23,7 @@ export default function PokemonOne() {
 
   return (
     <CardPokemon
+      dataTestId="pokemon-one"
       src={pokemon.sprites?.other?.["official-artwork"]?.front_default || ""}
       bgColorCard={pokemonSpecies?.color?.name || "all"}
       pokemon={pokemon}
